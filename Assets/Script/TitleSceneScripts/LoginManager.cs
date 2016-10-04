@@ -5,6 +5,7 @@ using System.Collections;
 
 
 public class LoginManager : MonoBehaviour {
+	
 	string id;
 	string pw;
 
@@ -12,8 +13,8 @@ public class LoginManager : MonoBehaviour {
 	void Start () {
 		var ID_inputTextField = GameObject.Find ("ID_inputTextField").GetComponent<InputField> ();
 		var PW_inputTextField = GameObject.Find ("PW_inputTextField").GetComponent<InputField> ();
-		var submitIdEvent = new UnityEngine.UI.InputField.SubmitEvent ();
-		var submitPwEvent = new UnityEngine.UI.InputField.SubmitEvent ();
+		var submitIdEvent = new InputField.SubmitEvent ();
+		var submitPwEvent = new InputField.SubmitEvent ();
 
 		submitIdEvent.AddListener (SetId);
 		submitPwEvent.AddListener (SetPw);
@@ -29,6 +30,7 @@ public class LoginManager : MonoBehaviour {
 
 	public void Login () {
 		Debug.Log ("id:"+this.id+"\tpw:"+this.pw);
+		UserInfo.id = this.id;
 		SceneManager.LoadScene (1);
 	}
 

@@ -4,7 +4,7 @@ using System.Collections;
 public static class UserInfo {
 
 	public static string id;
-	public static string name;
+	public static string email;
 
 }
 	
