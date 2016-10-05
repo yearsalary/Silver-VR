@@ -2894,14 +2894,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: " \uC124\uBA85\uAE00 \uC124\uBA85\uAE00 \uC11C\uBA85\uAE00 \uC124\uBA85\uAE00\uC124\uBA85\uAE00
-    \uC124\uBA85\uAE00 \uC11C\uBA85\uAE00 \uC124\uBA85\uAE00\uC124\uBA85\uAE00 \uC124\uBA85\uAE00
-    \uC11C\uBA85\uAE00 \uC124\uBA85\uAE00\uC124\uBA85\uAE00 \uC124\uBA85\uAE00 \uC11C\uBA85\uAE00
-    \uC124\uBA85\uAE00\uC124\uBA85\uAE00 \uC124\uBA85\uAE00 \uC11C\uBA85\uAE00 \uC124\uBA85\uAE00\uC124\uBA85\uAE00
-    \uC124\uBA85\uAE00 \uC11C\uBA85\uAE00 \uC124\uBA85\uAE00\uC124\uBA85\uAE00 \uC124\uBA85\uAE00
-    \uC11C\uBA85\uAE00 \uC124\uBA85\uAE00\uC124\uBA85\uAE00 \uC124\uBA85\uAE00 \uC11C\uBA85\uAE00
-    \uC124\uBA85\uAE00\uC124\uBA85\uAE00 \uC124\uBA85\uAE00 \uC11C\uBA85\uAE00 \uC124\uBA85\uAE00\uC124\uBA85\uAE00
-    \uC124\uBA85\uAE00 \uC11C\uBA85\uAE00 \uC124\uBA85\uAE00"
+  m_Text: 
 --- !u!222 &792070730
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -4102,7 +4095,7 @@ MonoBehaviour:
     m_Options:
     - m_Text: DropBoxGame
       m_Image: {fileID: 0}
-    - m_Text: StackBox Game
+    - m_Text: StackBoxGame
       m_Image: {fileID: 0}
   m_OnValueChanged:
     m_PersistentCalls:
